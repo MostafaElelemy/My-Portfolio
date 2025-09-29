@@ -65,12 +65,12 @@ export function Home() {
 
       
 
-      <Section id="resume" title="Resume">
+      {/* <Section id="resume" title="Resume">
         <div className="rounded-2xl border border-neutral-200 dark:border-neutral-800 overflow-hidden bg-white/70 dark:bg-neutral-900/40">
           <iframe title="Mostafa Elelemy CV" src="/cv.pdf#view=fitH" className="w-full h-[720px]" />
         </div>
         <a href="/cv.pdf" target="_blank" rel="noreferrer" className="mt-4 inline-block px-4 py-2 rounded-lg border hover:bg-neutral-100 dark:hover:bg-neutral-800">Open CV in new tab</a>
-      </Section>
+      </Section> */}
 
       <Section id="contact" title="Contact">
         <ContactForm />

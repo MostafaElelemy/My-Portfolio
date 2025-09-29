@@ -85,10 +85,10 @@ export function DemoOverlay() {
       aria-modal="true"
     >
       <div className="relative w-full max-w-3xl rounded-2xl border border-neutral-700 bg-neutral-950 text-neutral-100 shadow-2xl">
-        <button onClick={close} aria-label="Close demo" className="absolute top-3 right-3 px-3 py-1.5 rounded-lg bg-white/20 hover:bg-white/30 text-white font-semibold">× Close</button>
+        <button onClick={close} aria-label="Close demo" className="absolute top-3 right-3 px-3 py-1.5 rounded-lg bg-white/20 hover:bg-white/30 text-white font-semibold"> Close</button>
         <div className="p-4 border-b border-white/10 flex items-center justify-between">
           <h3 className="text-lg font-semibold">Live Demo: {demo}</h3>
-          <span className="text-xs opacity-70">Built-in</span>
+          {/* <span className="text-xs opacity-70">Built-in</span> */}
         </div>
         <div className="p-4">{content}</div>
       </div>

@@ -7,7 +7,7 @@ export function Header() {
     <header className="sticky top-0 z-40 backdrop-blur bg-white/70 dark:bg-neutral-950/60 border-b border-neutral-200/60 dark:border-neutral-800">
       <div className="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         <a href="#" className="font-semibold tracking-tight text-xl">
-          <span className="text-brand-gradient">Tefa Plus</span>
+          <span className="text-brand-gradient">Elelemy</span>
         </a>
         <nav className="flex items-center gap-3">
           <a className="px-3 py-1.5 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800" href="#projects">Projects</a>
